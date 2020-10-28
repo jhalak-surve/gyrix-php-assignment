@@ -9,7 +9,7 @@
         else if( (is_string($n1)) && ( (is_string($n2)) || (is_int($n2)) || (is_float($n2)) ) ){
             return $n1." ".$n2;
         }
-        else if( ((is_string($n1)) ||  (is_int($n1)) || (is_float($n1)) ) && ((is_string($n2)) )){
+        else if( ((is_string($n1)) || (is_int($n1)) || (is_float($n1)) ) && (is_string($n2)) ){
             return $n1." ".$n2;
         }
         
