@@ -30,6 +30,6 @@
     else{
         echo "Element found at index: ".$result;
     }
-    
+   
     
 ?>
